@@ -1,4 +1,4 @@
 site_name: WatParam9.org Back Office
 pages:
     - [index.md, การเข้าใช้งาน]
-    - [update.md, อัพเดทข้อมูล]
+    - [how-to-update.md, อัพเดทข้อมูล]
