@@ -11,6 +11,10 @@ mkdocs serve
 
 ## Build
 ```
-mkdocs build
+mkdocs build	
 ```
 
+## Deploy
+1. remove **/site**
+2. mkdocs build
+3. upload via FTP
