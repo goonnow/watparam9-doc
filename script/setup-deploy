@@ -1,0 +1,18 @@
+#!/bin/bash
+
+CURRENT=$(pwd);
+
+# Create .ftppass
+cp .ftppass_sample .ftppass
+
+# Create host_profile
+cp host_profile_sample host_profile
+
+# Adding host_profile bashrc
+echo "Here the setting deployment instruction";
+echo "1. Set username/password in .ftppass
+2. Set host_profile
+3. Add the command below to your shell profile(~/.bashrc)
+> source $CURRENT/host_profile
+4. Reload shell
+";
